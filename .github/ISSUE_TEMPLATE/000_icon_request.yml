@@ -5,9 +5,11 @@ projects: ["FortAwesome/20"]
 title: "Icon Request: "
 body:
   - type: markdown
-    value: "## Before You Request"
+    attributes:
+      value: "## Before You Request"
   - type: markdown
-    value: |
+    attributes:
+      value: |
       Thanks for requesting a new Font Awesome icon! But first, let's get some specifics out of the way. For example, lots of amazing custom icons can already be created using our [Icon Wizard](https://blog.fontawesome.com/icon-wizard/)! Please check through this list first to ensure your request is as useful and unique as possible:
   - type: checkboxes
     id: checklist
@@ -25,7 +27,8 @@ body:
         - label: I understand [how new icon requests work](https://fontawesome.com/support#requesting-icons)
           required: true
   - type: markdown
-    value: "## Your Request"
+    attributes:
+      value: "## Your Request"
   - type: dropdown
     id: type
     attributes:
@@ -46,12 +49,12 @@ body:
       label: Use case
       description: How should this new icon be used?
       placeholder: ex. a proton torpedo for our holographic space station attack plans
-    validation:
+    validations:
       required: true
   - type: textarea
     id: example
     attributes:
       label: Visual example
       description: Insert an example image or other visual reference to help us get the picture (literally).
-    validation:
+    validations:
       required: true
