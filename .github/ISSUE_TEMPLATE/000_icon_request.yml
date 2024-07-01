@@ -10,7 +10,7 @@ body:
   - type: markdown
     attributes:
       value: |
-      Thanks for requesting a new Font Awesome icon! But first, let's get some specifics out of the way. For example, lots of amazing custom icons can already be created using our [Icon Wizard](https://blog.fontawesome.com/icon-wizard/)! Please check through this list first to ensure your request is as useful and unique as possible:
+        Thanks for requesting a new Font Awesome icon! But first, let's get some specifics out of the way. For example, lots of amazing custom icons can already be created using our [Icon Wizard](https://blog.fontawesome.com/icon-wizard/)! Please check through this list first to ensure your request is as useful and unique as possible:
   - type: checkboxes
     id: checklist
     attributes:
